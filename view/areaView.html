@@ -1,0 +1,9 @@
+    <ion-view title="'Provinsi'" left-buttons="leftButtons">
+        <ion-content has-header="true" scroll="true">
+          <div class="list" ng-init="showLoading()">
+          	 <a class="item item-icon-left" href="#/map/area/{{listarea.id}}" ng-repeat="listarea in listareas">
+    			     {{listarea.name}}
+  			     </a>
+          </div>
+      	</ion-content>
+  	</ion-view>

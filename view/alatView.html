@@ -1,0 +1,18 @@
+<ion-view title="'Peralatan Susur'" left-buttons="leftButtons" ng-init="showLoading()">
+	<ion-content has-header="true">
+<!-- 		<div class="row responsive-md">
+			<div class="col col-100">
+				<div ng-repeat="alat in alats.data">
+					<h2>{{alat.name}}</h2>
+					<p>{{alat.description}}</p>
+					<br>
+				</div>
+			</div>
+		</div> -->
+		<div class="list">
+			<a class="item item-icon-left" href="#/map/info/alat/{{alat.id}}" ng-repeat="alat in alats">
+    			{{alat.name}}
+  			</a>
+		</div>		
+	</ion-content>
+</ion-view>

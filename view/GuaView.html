@@ -1,0 +1,95 @@
+    
+
+    <ion-view title="title" left-buttons="leftButtons">
+        <ion-content has-header="true" scroll="true">
+	        <div class="row responsive-md" ng-init="showLoading()">
+	        	<!-- List Gua -->
+	        	<div class="col col-33">
+					<div class="list" id="listCavesArea">
+						<p class="item item-icon-left" ng-repeat="perprovince in perprovinces" ng-click="loadGua(perprovince.id)" ng-class="{active : isActive(perprovince.id)}">{{perprovince.name}} <span class="badge" ng-repeat="coor in perprovince.coordinates"><u>+</u>{{jarak(coor.latitude, coor.longitude)}}km</span></p>
+					</div>
+	        	</div>
+	        	
+	        	<div class="col col-67" id="viewGua">
+	        		<!-- <p ng-hide="select == ''">{{select}}</p> -->
+	        		<div ng-hide="guaviews == []" ng-repeat="gua in guaviews">
+						<div class="row responsive-md">
+							<div class="col col-100">
+								<div id="pic-slider">
+									<!-- Default Picture / Static Map-->
+	<!-- 								<li><img class="full-image" src="img/nopict.png" ng-show="gua.images == 0" /></li> -->
+									<img ng-src="http://maps.googleapis.com/maps/api/staticmap?&key=AIzaSyBvkEaVRacUN8MucCU6B4YQGAT18KCmXnY&sensor=false&center={{coor.latitude}},{{coor.longitude}}&zoom=11&scale=1x&size=640x300&markers={{coor.latitude}},{{coor.longitude}}" ng-repeat="coor in gua.coordinates" ng-show="gua.images == 0" style="width:auto !important;height:410px;text-align:center;">
+
+									<!-- Slide picture -->
+							        <ul rn-carousel rn-carousel-control class="image">
+							            <li ng-repeat="image in gua.images">
+							                <img src="{{image.file}}">
+							            </li>
+							        </ul>
+							    </div>
+							</div>
+						</div>
+						<div class="row responsive-md">
+							<div class="col col-50">
+								<!-- Difficulties Level -->
+								<div id="guaType">
+									<!-- <p>{{gua.type.name}} <span ng-show="gua.type.name == 0"> - </span> | {{gua.difficulty.name}} <span ng-show="gua.difficulty.name == 0"> - </span></p> -->
+									<p><span ng-show="gua.type.name">{{gua.type.name}}</span><span ng-show="gua.type.name && gua.difficulty.name"> | </span><span ng-show="gua.difficulty.name">{{gua.difficulty.name}}</span></p>
+								</div>
+
+							</div>
+							<div class="col col-50">
+								<!-- Position -->
+								<div id="guaCoordinate">
+									<p class="right" ng-repeat="coor in gua.coordinates"><i class="ion-ios7-location-outline"></i><br>S {{coor.longitude}} E {{coor.latitude}} </p>
+								
+									<p class="right" ng-show="gua.coordinates == 0"><i class="ion-ios7-location-outline"></i><br> No Coordinates</p>
+								</div>
+								<div id="guaAddress">
+									<div class="right">{{gua.kelurahan.name}}</div><!--  <span ng-show="gua.kelurahan == 0"> - </span> -->
+									<div class="right">{{gua.kecamatan.name}}</div><!-- <span ng-show="gua.kecamatan == 0"> - </span> -->
+									<div class="right">{{gua.kabupaten.name}}</div><!-- <span ng-show="gua.kabupaten == 0"> - </span> -->
+								</div>
+							</div>
+						</div>
+						<div class="row responsive-md">
+							<div class="col col-50">
+								<!-- Contact -->
+								<div id="guaContact" ng-show="gua.contacts">
+									<h5>Contact</h5>
+									<div ng-repeat="contact in gua.contacts">
+										<p> Nama: </p>
+										<p> No. Telp: </p>
+									</div>
+									<!-- <p ng-show="gua.contacts == 0">No Contact yet</p> -->
+								</div>
+							</div>
+							<div class="col col-50">
+								<!-- Gear -->
+								<div id="guaGear" ng-show="gua.gears">
+									<h5 class="right">
+										Peralatan Susur
+									</h5>
+									<ul class="list right" ng-repeat = "gear in gua.gears" dir="rtl">
+										<li>{{gear.name}}</li>
+									</ul>
+									<!-- <p class="right" ng-show="gua.gears == 0">No gear</p> -->
+								</div>
+							</div>
+						</div>
+
+						<div class="row responsive-md">
+							<div class="col col-100">
+								<!-- Cave Description -->
+								<hr/>
+								<p ng-bind-html="gua.description | nl2br"></p>
+								<p ng-show="gua.description == []">No description yet...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+      	</ion-content>
+  	</ion-view>
+ 

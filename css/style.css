@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@font-face{
+	font-family: 'Helvetica';
+	src: url('../fonts/HELVETICANEUELTSTD-THEX.OTF');
+}
+
+@font-face{
+	font-family: 'Tahoma';
+	src: url('../fonts/TAHOMA.TTF');
+}
+
+body{
+	font-family: 'Tahoma', sans-serif !important;
+	color: #4ACFDD;
+}
+body, h1,h2, h3, h4, h5{
+	font-family: 'Tahoma', sans-serif !important;
+	color: #4ACFDD;
+}
+
+.angular-google-map-container{ 
+	height: 100%; 
+}
+
+.right{
+	width: auto;
+	text-align: right;
+}
+
+ul.right{
+	text-align: right;
+	padding-right: 0.8em;
+	list-style-type: disc;
+}
+
+/* tidak pakai ini sudah ganti warna sendiri
+li.active{
+	background-color: blue !important;
+	color:red;
+}*/
+
+#pic-slider{
+	text-align:center;
+	height:410px;
+}
+#pic-slider{
+	height:410px;
+	margin-bottom:24px;
+	width:auto;
+}
+#pic-slider img{
+	height:410px;
+	width:auto;
+}
+.menu-content{
+	padding:0;
+}
+div[ng-repeat="gua in guas"] ion-view{
+	background-color:#4ACFDD;
+	color:#fff;
+	padding:0;
+}
+.row.responsive-md{
+	padding:0 0px;
+}
+div[ng-repeat="gua in guas"] .row.responsive-md{
+	padding:0 10px;
+}
+div[ng-repeat="gua in guas"] .col.col-100,div[ng-repeat="gua in guaviews"] .col.col-100{
+	padding:0 !important;
+}
+#listCavesArea{
+	padding:5px;
+}
+
+#listCavesArea .list,#listCavesArea .item,#listCavesArea .badge, #listMainMenu .list{
+	font-family: 'Tahoma', sans-serif !important;
+	color:#4ACFDD;
+}
+
+hr{
+	border:1px solid #fff;
+	border-bottom:none;
+	margin:20px 0px;
+}
+#guaType{
+	font-family: 'Helvetica', sans-serif !important;
+	font-size:18px !important;
+}
+#guaCoordinate{
+	color:#D5F2F6;
+	font-size:16px;
+}
+#guaCoordinate p{
+	font-family: 'Helvetica', sans-serif !important;
+	margin:0px;
+}
+#guaGears,#guaContacts{
+	margin-top:24px;
+}
+#guaGear h5,#guaContacts h5{
+	font-family: 'Tahoma', sans-serif !important;
+	color:#fff;
+	font-size:16px;
+}
+#guaGears li,#guaContacts li,#guaContacts p{
+	font-family: 'Tahoma', sans-serif !important;
+	font-size:14px !important;
+}
+#guaAddress{
+	font-family: 'Helvetica', sans-serif !important;
+	color:#D5F2F6;
+	font-size:18px !important;
+}
+#viewGua{
+	font-family: 'Tahoma', sans-serif !important;
+	background-color:#4ACFDD;
+	color:#fff;
+	padding:0 10px;;
+}
+
+.gm-style-iw a,.gm-style-iw:visited{
+	color:#fff;
+}
+
+
+/*tambahan untuk infobox */
+.custom-info-window{
+    background: rgba(74,207,221,0.5);
+    color: white;
+    font-size:14px;
+    padding: 5px 5px 0px 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    min-width: 150px;
+    margin-top: 10px;
+}
+
+.custom-info-window a{
+    color: white;
+    text-decoration: underline;
+}
+
+/*.custom-info-window:after
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: rgba(0,0,0,0.5) transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: 15px;
+    left: 35px;
+}*/

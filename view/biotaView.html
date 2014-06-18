@@ -1,0 +1,7 @@
+<ion-view title="'Jenis Biota'" left-buttons="leftButtons">
+	<ion-content has-header="true">
+		<div class="list" ng-init="showLoading()">
+			<a class="item item-icon-left" href="#/map/info/biota/{{biota.id}}" ng-repeat="biota in biotas">{{biota.name}}</a>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,13 @@
+  <div ng-repeat="perprovince in perprovinces">
+    <ion-view title="perprovince.provinsi.name" left-buttons="leftButtons">
+        <ion-content has-header="true" scroll="true">
+        	<div class="list">
+          	 <a class="item item-icon-left" href="#/map/area/{{perprovince.provinsi.id}}/{{perprovince.id}}" ng-repeat="perprovince in perprovinces">
+    			     {{perprovince.name}} 
+               <span class="badge badge-energized" ng-repeat="coor in perprovince.coordinates"><u>+</u>{{jarak(coor.latitude, coor.longitude)}}km</span>
+  			     </a>
+          	</div>        
+          	<ion-infinite-scroll ng-if="!noMoreItemsAvailable" on-infinite="loadMore()" distance="10%"></ion-infinite-scroll>
+      	</ion-content>
+  	</ion-view>
+  </div>

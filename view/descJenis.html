@@ -1,0 +1,19 @@
+<div ng-init="showLoading()">
+	<ion-view title="'Gua '+jenisDescs.name" left-buttons="leftButtons">
+		<ion-content has-header="true">
+			<div class="row responsive-md">
+				<div class="col col-100">
+					<div id="pic-slider">
+						<div ng-show="jenisDescs.image">
+							<img src="{{jenisDescs.image}}" alt="{{jenisDescs.name}}" />
+						</div>
+					</div>
+					<div id="keterangan">
+						<h4>{{jenisDescs.name}}</h4>
+						<p>{{jenisDescs.description}}</p>
+					</div>
+				</div>
+			</div>
+		</ion-content>
+	</ion-view>
+</div>

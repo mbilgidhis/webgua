@@ -1,0 +1,10 @@
+
+<ion-view title="'Jenis Gua'" left-buttons="leftButtons" ng-init="showLoading()">
+	<ion-content has-header="true">
+		<div class="list">
+			<a class="item item-icon-left" href="#/map/info/jenis/{{jenis.id}}" ng-repeat="jenis in jeniss">
+    			{{jenis.name}}
+  			</a>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,17 @@
+<ion-view title="'Jenis Biota'" left-buttons="leftButtons">
+	<ion-content has-header="true">
+		<div class="row responsive-md" ng-init="showLoading()">
+			<div class="col col-100">
+				<div id="pic-slider">
+					<div ng-show="biotas.image">
+						<img src="{{biotas.image}}" alt="{{alats.name}}" />
+					</div>
+				</div>
+				<div id="keterangan">
+					<h4>{{biotas.name}}</h4>
+					<p>{{biotas.description}}</p>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
