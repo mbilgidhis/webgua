@@ -40,18 +40,16 @@ li.active{
 	color:red;
 }*/
 
+
 #pic-slider{
 	text-align:center;
-	height:410px;
 }
 #pic-slider{
-	height:410px;
 	margin-bottom:24px;
-	width:auto;
 }
 #pic-slider img{
-	height:410px;
-	width:auto;
+	height:auto;
+	width:100%;
 }
 .menu-content{
 	padding:0;
@@ -62,11 +60,9 @@ div[ng-repeat="gua in guas"] ion-view{
 	padding:0;
 }
 .row.responsive-md{
-	padding:0 0px;
+	padding:0px;
 }
-div[ng-repeat="gua in guas"] .row.responsive-md{
-	padding:0 10px;
-}
+
 div[ng-repeat="gua in guas"] .col.col-100,div[ng-repeat="gua in guaviews"] .col.col-100{
 	padding:0 !important;
 }
@@ -75,8 +71,21 @@ div[ng-repeat="gua in guas"] .col.col-100,div[ng-repeat="gua in guaviews"] .col.
 }
 
 #listCavesArea .list,#listCavesArea .item,#listCavesArea .badge, #listMainMenu .list{
-	font-family: 'Tahoma', sans-serif !important;
+	font-family: ;;,'Tahoma', sans-serif !important;
 	color:#4ACFDD;
+}
+#listCavesArea .item{
+	border-style:none;
+}
+#listCavesArea .badge{
+	border-left:1px solid #4ACFDD;
+	font-size:12px;
+	font-weight:normal;
+	padding:2px 0px 2px 10px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px; /* future proofing */
+	-khtml-border-radius: 0px; /* for old Konqueror browsers */
 }
 
 hr{
@@ -89,7 +98,7 @@ hr{
 	font-size:18px !important;
 }
 #guaCoordinate{
-	color:#D5F2F6;
+	color:#fff;
 	font-size:16px;
 }
 #guaCoordinate p{
@@ -110,31 +119,36 @@ hr{
 }
 #guaAddress{
 	font-family: 'Helvetica', sans-serif !important;
-	color:#D5F2F6;
+	color:#fff;
 	font-size:18px !important;
 }
 #viewGua{
 	font-family: 'Tahoma', sans-serif !important;
 	background-color:#4ACFDD;
 	color:#fff;
-	padding:0 10px;;
+	padding:0px;
 }
 
 .gm-style-iw a,.gm-style-iw:visited{
 	color:#fff;
 }
 
+#guaInfoDetails{
+	padding:10px;
+}
 
 /*tambahan untuk infobox */
 .custom-info-window{
-    background: rgba(74,207,221,0.5);
+    background: rgba(74,207,221,0.7);
     color: white;
-    font-size:14px;
+	font-size:14px;
     padding: 5px 5px 0px 10px;
+    /*border: 1px solid white;*/
     box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
     border-radius: 5px;
-    min-width: 150px;
-    margin-top: 10px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: -130px;
 }
 
 .custom-info-window a{
@@ -142,16 +156,17 @@ hr{
     text-decoration: underline;
 }
 
-/*.custom-info-window:after
+.custom-info-window:after
 {
     content: '';
     position: absolute;
-    border-style: solid;
-    border-width: 0 15px 15px;
-    border-color: rgba(0,0,0,0.5) transparent;
+    border-style: none;
+    border-width: 0 0px 0px;
+    border-color: rgba(74,207,221,0.7) transparent;
     display: block;
     width: 0;
     z-index: 1;
-    top: 15px;
-    left: 35px;
-}*/
+    top: -15px;
+    left: 118px;
+}
+/**/

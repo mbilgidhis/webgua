@@ -20,65 +20,67 @@
 				</div>
 			</div>
 
-			<!-- Split 2 Top -->
-			<div class="row responsive-md">
-				<!-- Difficulty Level -->
-				<div class="col col-50">
-					<div id="guaType">
-						<!-- <p>{{gua.type.name}} <span ng-show="gua.type.name == 0"> - </span> | {{gua.difficulty.name}} <span ng-show="gua.difficulty.name == 0"> - </span></p> -->
-						<p><span ng-show="gua.type.name">{{gua.type.name}}</span><span ng-show="gua.type.name && gua.difficulty.name"> | </span><span ng-show="gua.difficulty.name">{{gua.difficulty.name}}</span></p>
-					</div>
-				</div>
-				<!-- Location -->
-				<div class="col col-50">
-					<!-- Position -->				
-					<div id="guaCoordinate">
-						<p class="right" ng-repeat="coor in gua.coordinates"><i class="ion-ios7-location-outline"></i><br>S {{coor.longitude}} E {{coor.latitude}} </p>
-					
-						<p class="right" ng-show="gua.coordinates == 0"><i class="ion-ios7-location-outline"></i><br> No Coordinates</p>
-					</div>
-					<div id="guaAddress">
-						<div class="right">{{gua.kelurahan.name}}</div><!--  <span ng-show="gua.kelurahan == 0"> - </span> -->
-						<div class="right">{{gua.kecamatan.name}}<!-- <span ng-show="gua.kecamatan == 0"> - </span> --></div>
-						<div class="right">{{gua.kabupaten.name}}<!-- <span ng-show="gua.kabupaten == 0"> - </span> --></div>
-					</div>
-				</div>
-			</div>
-			
-			<!-- Split 2 Bottom -->
-			<div class="row responsive-md">
-				<!-- Contact -->
-				<div class="col col-50">
-					<div id="guaContact" ng-show="gua.contacts">
-						<h5>Contact</h5>
-						<div ng-repeat="contact in gua.contacts">
-							<p> Nama: </p>
-							<p> No. Telp: </p>
+			<div id="guaInfoDetails">
+				<!-- Split 2 Top -->
+				<div class="row responsive-md">
+					<!-- Difficulty Level -->
+					<div class="col col-50">
+						<div id="guaType">
+							<!-- <p>{{gua.type.name}} <span ng-show="gua.type.name == 0"> - </span> | {{gua.difficulty.name}} <span ng-show="gua.difficulty.name == 0"> - </span></p> -->
+							<p><span ng-show="gua.type.name">{{gua.type.name}}</span><span ng-show="gua.type.name && gua.difficulty.name"> | </span><span ng-show="gua.difficulty.name">{{gua.difficulty.name}}</span></p>
 						</div>
-						<!-- <p ng-show="gua.contacts == 0">No Contact yet</p> -->
-					</div>						
-				</div>
-
-				<!-- Gear -->
-				<div class="col col-50">
-					<div id="guaGear" ng-show="gua.gears">
-						<h5 class="right">
-							Peralatan Susur
-						</h5>
-						<ul class="list right" ng-repeat = "gear in gua.gears" dir="rtl">
-							<li>{{gear.name}}</li>
-						</ul>
-						<!-- <p class="right" ng-show="gua.gears == 0">No gear</p> -->
+					</div>
+					<!-- Location -->
+					<div class="col col-50">
+						<!-- Position -->				
+						<div id="guaCoordinate">
+							<p class="right" ng-repeat="coor in gua.coordinates"><i class="ion-ios7-location-outline"></i><br>S {{coor.longitude}} E {{coor.latitude}} </p>
+						
+							<p class="right" ng-show="gua.coordinates == 0"><i class="ion-ios7-location-outline"></i><br> No Coordinates</p>
+						</div>
+						<div id="guaAddress">
+							<div class="right">{{gua.kelurahan.name}}</div><!--  <span ng-show="gua.kelurahan == 0"> - </span> -->
+							<div class="right">{{gua.kecamatan.name}}<!-- <span ng-show="gua.kecamatan == 0"> - </span> --></div>
+							<div class="right">{{gua.kabupaten.name}}<!-- <span ng-show="gua.kabupaten == 0"> - </span> --></div>
+						</div>
 					</div>
 				</div>
-			</div>
+				
+				<!-- Split 2 Bottom -->
+				<div class="row responsive-md">
+					<!-- Contact -->
+					<div class="col col-50">
+						<div id="guaContact" ng-show="gua.contacts">
+							<h5>Contact</h5>
+							<div ng-repeat="contact in gua.contacts">
+								<p> Nama: </p>
+								<p> No. Telp: </p>
+							</div>
+							<!-- <p ng-show="gua.contacts == 0">No Contact yet</p> -->
+						</div>						
+					</div>
 
-			<!-- Description -->
-			<div class="row responsive-md">
-				<div class="col col-100">
-					<hr/>
-					<p ng-bind-html="gua.description | nl2br"></p>
-					<p ng-show="gua.description == []">No description yet...</p>						
+					<!-- Gear -->
+					<div class="col col-50">
+						<div id="guaGear" ng-show="gua.gears">
+							<h5 class="right">
+								Peralatan Susur
+							</h5>
+							<ul class="list right" ng-repeat = "gear in gua.gears" dir="rtl">
+								<li>{{gear.name}}</li>
+							</ul>
+							<!-- <p class="right" ng-show="gua.gears == 0">No gear</p> -->
+						</div>
+					</div>
+				</div>
+
+				<!-- Description -->
+				<div class="row responsive-md">
+					<div class="col col-100">
+						<hr/>
+						<p ng-bind-html="gua.description | nl2br"></p>
+						<p ng-show="gua.description == []">No description yet...</p>						
+					</div>
 				</div>
 			</div>
 
