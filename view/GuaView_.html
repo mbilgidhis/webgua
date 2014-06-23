@@ -11,11 +11,19 @@
 						<img ng-src="http://maps.googleapis.com/maps/api/staticmap?&key=AIzaSyBvkEaVRacUN8MucCU6B4YQGAT18KCmXnY&sensor=false&center={{coor.latitude}},{{coor.longitude}}&zoom=11&scale=1x&size=640x300&markers={{coor.latitude}},{{coor.longitude}}" ng-repeat="coor in gua.coordinates" ng-show="gua.images == 0" style="width:auto !important;height:410px;text-align:center;">
 
 						<!-- Slide picture -->
-				        <ul rn-carousel rn-carousel-control class="image">
+<!-- 				        <ul rn-carousel rn-carousel-control class="image">
 				            <li ng-repeat="image in gua.images">
 				                <img src="{{image.file}}">
 				            </li>
-				        </ul>		
+				        </ul> -->	
+
+				        <!-- masih salah -->
+				        <div ng-show="gua.images" >
+				        	<img src="{{image.file[0]}}" ng-repeat="image in gua.images"/>
+				        	{{image.file[0]}}
+				        </div>
+
+				        <!-- akhir masih salah -->	
 			        </div>			
 				</div>
 			</div>
