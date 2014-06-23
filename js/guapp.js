@@ -68,9 +68,17 @@ GuaApp.controller('MainCtrl', ['$scope', function($scope) {
 /**
  * MAIN CONTROLLER - handle inapp browser
  */
-GuaApp.controller('TentangCtrl', ['$scope', function($scope) {
-  // do something
-}]);
+GuaApp.controller('TentangCtrl', function($scope, $http){
+	$http({
+		url:"http://gua.antonwibisono.com/api/public/aboutus/",
+		apiToken: "434refce",
+		dataType: "json",
+		method:'POST'		
+	}).success(function(data){
+		$scope.about = data.data;
+		console.log($scope.about);
+	});
+});
 
 /**
  * MAIN CONTROLLER - handle inapp browser
