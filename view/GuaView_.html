@@ -18,9 +18,8 @@
 				        </ul> -->	
 
 				        <!-- masih salah -->
-				        <div ng-show="gua.images" >
-				        	<img src="{{image.file[0]}}" ng-repeat="image in gua.images"/>
-				        	{{image.file[0]}}
+				        <div ng-hide="file == 0" >
+							<img src="{{file}}" alt="{{gua.name}}" />
 				        </div>
 
 				        <!-- akhir masih salah -->	

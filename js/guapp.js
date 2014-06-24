@@ -503,7 +503,7 @@ GuaApp.controller('GuaCtrl', function($scope, $stateParams, $http, $window, $ion
 	};
 	var id = $stateParams.id;
 
-	// $scope.perprovinces = [];
+	var tempUrl = [];
 
 	var lat = $window.lat, lng = $window.lng;
 	var currentLocation = new google.maps.LatLng(lat, lng);
@@ -528,6 +528,9 @@ GuaApp.controller('GuaCtrl', function($scope, $stateParams, $http, $window, $ion
 			$scope.guaviews = gua.data;
 			$scope.title = $scope.guaviews[0].name;
 			$scope.active = $scope.guaviews[0].id;
+
+			tempUrl = $scope.guaviews[0].images;
+			$scope.file = tempUrl[0].file;
 
 			$timeout(function(){
 				$scope.loadingIndicator.hide();
@@ -591,6 +594,8 @@ GuaApp.controller('GuaViewCtrl', function($scope,$http, $stateParams, $ionicLoad
 	$scope.guas = [];
 	var id = $stateParams.id;
 
+	var tempUrl = [];
+
 	$http({
 		url:"http://gua.antonwibisono.com/api/public/cave/?id="+id,
 		apiToken: "434refce",
@@ -598,6 +603,15 @@ GuaApp.controller('GuaViewCtrl', function($scope,$http, $stateParams, $ionicLoad
 		method:'POST'
 	}).success(function(data){
 		$scope.guas = data.data;
+
+		if($scope.guas[0].images == 0){
+			$scope.file = [];
+		}else{
+			tempUrl = $scope.guas[0].images;
+			console.log(tempUrl[0].file);
+			$scope.file = tempUrl[0].file;
+		}
+
 		$timeout(function(){
 			$scope.loadingIndicator.hide();
 		}, 100);

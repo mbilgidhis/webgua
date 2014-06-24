@@ -1,0 +1,1183 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"sticky",
+				"stickySide"
+			],
+			[
+				"stick",
+				"sticky-bar"
+			],
+			[
+				"stickySide",
+				"stickySidebar"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"$lc",
+				"$location	AngularJS"
+			],
+			[
+				"$routeP",
+				"$routeParams	AngularJS"
+			],
+			[
+				"$routep",
+				"$routeProvider	AngularJS(DI)"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"l",
+				"longitude"
+			],
+			[
+				"log",
+				"longitude"
+			],
+			[
+				"lat",
+				"LatLong"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"tran",
+				"translateY"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"borde",
+				"border-left"
+			],
+			[
+				"form",
+				"form_input	CI - Form Helper - Input Field"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"load",
+				"load_model	CI - Load Model"
+			],
+			[
+				"md",
+				"md5opass"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"qu",
+				"query_video"
+			],
+			[
+				"adds",
+				"addslashes()"
+			],
+			[
+				"ad",
+				"addslashes()"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"exec",
+				"exec_count"
+			],
+			[
+				"exe",
+				"exec_list"
+			],
+			[
+				"date_de",
+				"date_default_timezone_set()"
+			],
+			[
+				"nex",
+				"nextDisabled"
+			],
+			[
+				"arra",
+				"array()"
+			],
+			[
+				"judul",
+				"judul_art"
+			],
+			[
+				"id_ar",
+				"id_article"
+			],
+			[
+				"ID",
+				"ID_Article"
+			],
+			[
+				"Judu",
+				"Judul_Article"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"Isi",
+				"Isi_Article"
+			],
+			[
+				"Ju",
+				"Judul_Article"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"scroll",
+				"scroll-up"
+			],
+			[
+				"posi",
+				"position"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"ses",
+				"session_destroy"
+			],
+			[
+				"session_s",
+				"session_start()"
+			],
+			[
+				"session_write_close",
+				"session_write_close()"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"query",
+				"query_posisi"
+			],
+			[
+				"quer",
+				"query_subjabatan"
+			],
+			[
+				"param",
+				"param2"
+			],
+			[
+				"kata",
+				"kata_kunci2"
+			],
+			[
+				"pil",
+				"pilJabatan"
+			],
+			[
+				"div",
+				"divChange2"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"jbt",
+				"jbt007"
+			],
+			[
+				"subsub",
+				"subsubJabatanKaputren"
+			],
+			[
+				"subJ",
+				"subJabatanKaputren"
+			],
+			[
+				"subJabatanKa",
+				"subJabatanKakerabatan"
+			],
+			[
+				"subjabatanKakerabatan",
+				"subjabatanKakerabatan"
+			],
+			[
+				"sub",
+				"subjabatanKaputren"
+			],
+			[
+				"exec_query",
+				"exec_query_jabatanKaputren"
+			],
+			[
+				"jumla",
+				"jumlah_pangkat"
+			],
+			[
+				"que",
+				"query_kode_pangkat"
+			],
+			[
+				"tam",
+				"tampil_search"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"date_f",
+				"date_format()"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"lati",
+				"lati"
+			],
+			[
+				"mysqle",
+				"mysqli_execute"
+			],
+			[
+				"mysqlfe",
+				"mysql_fetch_array"
+			],
+			[
+				"mysqlf",
+				"mysql_fetch_array"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"array",
+				"array_jumlah"
+			],
+			[
+				"pri",
+				"printf"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ara",
+				"array_legend"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"Pie",
+				"PieGraph"
+			],
+			[
+				"x",
+				"x-1"
+			],
+			[
+				"mysql_fetch",
+				"mysql_fetch_array"
+			],
+			[
+				"ec",
+				"execallquery"
+			],
+			[
+				"id",
+				"id_edit"
+			],
+			[
+				"mysq",
+				"mysql_fetch_array"
+			],
+			[
+				"mys",
+				"mysql_fetch_array"
+			],
+			[
+				"temp",
+				"tempfoto"
+			],
+			[
+				"erro",
+				"errortambah"
+			],
+			[
+				"edit",
+				"edit_tampil"
+			],
+			[
+				"tota",
+				"total_pages"
+			],
+			[
+				"tgl",
+				"tgl_lahir"
+			],
+			[
+				"etgl",
+				"etglktp"
+			],
+			[
+				"berlak",
+				"berlaku_ktp"
+			],
+			[
+				"eta",
+				"etanggallahir"
+			],
+			[
+				"header",
+				"header"
+			],
+			[
+				"no",
+				"noktp"
+			],
+			[
+				"bulan",
+				"bulanlahir"
+			],
+			[
+				"bu",
+				"bulanktp"
+			],
+			[
+				"tanggal",
+				"tanggalktp"
+			],
+			[
+				"tangg",
+				"tanggalktp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "view/GuaView.html",
+			"settings":
+			{
+				"buffer_size": 4514,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/guapp.js",
+			"settings":
+			{
+				"buffer_size": 17614,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "view/GuaView_.html",
+			"settings":
+			{
+				"buffer_size": 3644,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"come",
+				"Toggle Comment"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"lore",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"lorem",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"angularjs",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"jquer",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"cdn",
+				"Snippet: bs3-cdn-css"
+			],
+			[
+				"boot",
+				"Bookmarks: Toggle"
+			],
+			[
+				"htm",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"<p",
+				"Snippet: <p>"
+			],
+			[
+				"cimod",
+				"Snippet: CI - Base Model"
+			],
+			[
+				"cicont",
+				"Snippet: CI - Base Controller"
+			],
+			[
+				"snipet boos",
+				"Snippet: Bootstrap scripts reference"
+			],
+			[
+				"ht",
+				"Snippet: html"
+			],
+			[
+				"comet",
+				"Toggle Comment"
+			],
+			[
+				"lor",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"co",
+				"Toggle Comment"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"  com",
+				"Toggle Comment"
+			],
+			[
+				"snip",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"commet",
+				"Toggle Comment"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"uper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet ",
+				"Snippet: html"
+			],
+			[
+				"snippet:h",
+				"Snippet: hidden"
+			],
+			[
+				"form",
+				"Snippet: form"
+			],
+			[
+				"php",
+				"Format: Php"
+			],
+			[
+				"sni",
+				"Snippet: form"
+			],
+			[
+				"package l",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"bra",
+				"BracketHighlighter: Swap Brackets"
+			],
+			[
+				"syntax p",
+				"Set Syntax: PHP"
+			],
+			[
+				"if",
+				"Snippet: if …"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"all",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"snippet if",
+				"Snippet: if … else …"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"package cont",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:",
+				"Package Control: List Packages"
+			],
+			[
+				"package control install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax p",
+				"Set Syntax: PHP"
+			],
+			[
+				"if ",
+				"Snippet: if … else …"
+			],
+			[
+				"PH",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/github/framework7/about.html",
+		"/E/github/framework7/js/my-app.js",
+		"/E/github/framework7/index.html",
+		"/E/Web Template/website/js/test.js",
+		"/E/Web Template/website/js/truncate.js",
+		"/E/Web Template/website/css/style.css",
+		"/E/Web Template/website/js/stick-sidebar.js",
+		"/E/Web Template/website/js/stick.js",
+		"/E/Web Template/website/js/stick_.js",
+		"/E/Web Template/website/view/cv.html",
+		"/E/Web Template/website/view/portfolio.html",
+		"/E/Web Template/website/view/home.html",
+		"/E/Web Template/website/js/sticky.js",
+		"/E/Web Template/website/css/scroll-navi.css",
+		"/E/Web Template/website/js/scroll-navi.js",
+		"/E/Web Template/website/css/bootstrap.min.css",
+		"/E/github/Gua/www/css/style.css",
+		"/C/Users/mbilgidhis/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/E/github/Gua/www/view/descAlat.html",
+		"/E/github/Gua/www/view/fullBiotaView.html",
+		"/E/github/Gua/www/view/descJenis.html",
+		"/E/github/Gua/www/view/GuaView.html",
+		"/E/github/Gua/www/view/GuaView_.html",
+		"/E/github/Gua/www/view/infoView.html",
+		"/E/github/cobamap/index.html",
+		"/E/github/cobamap/js/app.js",
+		"/E/github/cobamap/view/test1.html",
+		"/E/github/cobamap/view/test2.html",
+		"/E/github/cobamap/view/index.html",
+		"/E/github/guapp/www/index.html",
+		"/E/github/cobamap/test2.html",
+		"/E/github/cobamap/test1.html",
+		"/E/github/guapp/www/js/guapp.js",
+		"/E/github/bower_components/angular-google-maps/example/assets/scripts/controllers/example.js",
+		"/E/github/bower_components/angular-google-maps/example/assets/scripts/controllers/geojson.js",
+		"/E/github/cobamap/css/style.css",
+		"/E/github/guapp/www/css/style.css",
+		"/E/github/guapp/www/view/menu.html",
+		"/E/github/guapp/www/view/infoView.html",
+		"/E/github/guapp/www/view/gpsView.html",
+		"/E/github/guapp/www/view/areaView.html",
+		"/E/github/guapp/www/view/dummyView.html",
+		"/E/github/guapp/README.md",
+		"/E/github/guapp/config.xml",
+		"/E/github/guapp/index.html",
+		"/E/github/index.html",
+		"/C/xampp/htdocs/ci/application/views/tambahkomentar.php",
+		"/C/xampp/htdocs/ci/application/controllers/ckomentar.php",
+		"/C/xampp/htdocs/ci/application/models/mkomentar.php",
+		"/C/xampp/htdocs/ci/application/views/vkomentar.php",
+		"/C/xampp/htdocs/ci/application/views/ubahkomentar.php",
+		"/C/xampp/htdocs/ci/application/controllers/welcome.php",
+		"/C/xampp/htdocs/ci/application/config/config.php",
+		"/C/xampp/htdocs/ci/application/config/autoload.php",
+		"/C/xampp/htdocs/ci/application/config/database.php",
+		"/E/github/jenggot/www/index.html",
+		"/E/github/jenggot/www/js/app.js",
+		"/E/github/jenggot/config.xml",
+		"/E/github/angular/index.html",
+		"/E/github/angular/partials/phone-list.html",
+		"/E/github/angular/js/app.js",
+		"/E/github/angular/js/controllers.js",
+		"/E/github/angular/partials/phone-detail.html",
+		"/E/github/angular/phones/phones.json",
+		"/E/github/angular/js/controller.js",
+		"/C/xampp/htdocs/tanimuda/admin/admin.php",
+		"/C/xampp/htdocs/tanimuda/admin/password.php",
+		"/C/xampp/htdocs/tanimuda/admin/login.php",
+		"/C/xampp/htdocs/tanimuda/admin/header.php",
+		"/C/xampp/htdocs/codeigniter/application/config/database.php",
+		"/C/xampp/htdocs/ciboot/assets/css/custom.css",
+		"/C/xampp/htdocs/codeigniter/application/config/config.php",
+		"/C/xampp/htdocs/codeigniter/application/controllers/belajar.php",
+		"/C/xampp/htdocs/tanimuda/admin/edit_admin.php",
+		"/C/xampp/htdocs/tanimuda/admin/action_artikel.php",
+		"/C/xampp/htdocs/tanimuda/admin/action_admin.php",
+		"/C/xampp/htdocs/tanimuda/admin/kategori.php",
+		"/C/xampp/htdocs/puro/admin/admincorner.php",
+		"/C/xampp/htdocs/tanimuda/article/article.php",
+		"/C/xampp/htdocs/tanimuda/css/signin.css",
+		"/C/xampp/htdocs/tanimuda/css/dashboard.css",
+		"/C/xampp/htdocs/tanimuda/article/footer.php",
+		"/C/xampp/htdocs/tanimuda/css/article.css",
+		"/C/xampp/htdocs/tanimuda/article/header.php",
+		"/C/xampp/htdocs/tanimuda/index.php",
+		"/C/xampp/htdocs/tanimuda/css/demo2.css",
+		"/C/xampp/htdocs/tanimuda/css/twitter-styles-fade.css",
+		"/C/xampp/htdocs/tanimuda/js/twitterfeed-fade.js",
+		"/C/xampp/htdocs/tanimuda/twitter_json.php",
+		"/C/xampp/htdocs/tanimuda/admin/conn.php",
+		"/C/xampp/htdocs/tanimuda/admin/edit_artikel.php",
+		"/C/xampp/htdocs/tanimuda/admin/index.php",
+		"/C/xampp/htdocs/tanimuda/admin/artikel_edit.php",
+		"/C/xampp/htdocs/tanimuda/potong_paragraf.php",
+		"/C/xampp/htdocs/tanimuda/article/index.php",
+		"/C/xampp/htdocs/tanimuda/admin/upload.php",
+		"/C/xampp/htdocs/tanimuda/article/video.php",
+		"/C/xampp/htdocs/tanimuda/admin/addvideo.php",
+		"/C/xampp/htdocs/tanimuda/css/bootstrap.css",
+		"/C/xampp/htdocs/tanimuda/admin/listvideo.php",
+		"/C/xampp/htdocs/tanimuda/admin/json_video.php",
+		"/C/xampp/htdocs/tanimuda/admin/edit_listvideo.php",
+		"/C/xampp/htdocs/tanimuda/admin/activate.php",
+		"/C/xampp/htdocs/tanimuda/admin/artikel.php",
+		"/C/xampp/htdocs/tanimuda/admin/json_article.php",
+		"/C/xampp/htdocs/tanimuda/admin/video.php",
+		"/E/github/djeng-gua/index.html",
+		"/C/xampp/htdocs/tanimuda/admin/edit_kategori.php",
+		"/C/xampp/htdocs/tanimuda/admin/add_kategori.php",
+		"/C/xampp/htdocs/tanimuda/admin/action_kategori.php",
+		"/C/xampp/htdocs/tanimuda/css/bootstrap___.css",
+		"/C/xampp/htdocs/tanimuda/js/jquery.paginate.js",
+		"/C/xampp/htdocs/puro/admin/json/pekerjaan.php",
+		"/C/xampp/htdocs/piechart/getData.php",
+		"/C/xampp/htdocs/puro/admin/index.php",
+		"/H/tanimuda/admin/conn.php",
+		"/C/xampp/htdocs/tanimuda/admin/footer.php",
+		"/C/xampp/htdocs/jogja/css/bootstrap.css",
+		"/D/job web/smint-v2.0/admin/functions.js",
+		"/D/job web/smint-v2.0/admin/friend.json",
+		"/D/job web/smint-v2.0/admin/kofet.html",
+		"/D/job web/smint-v2.0/admin/crud.js",
+		"/D/job web/smint-v2.0/admin/article.json",
+		"/D/job web/taffydb-master/taffy-test.html",
+		"/D/job web/taffydb-master/node-demo.js",
+		"/D/job web/taffydb-master/how-to-node.md",
+		"/D/job web/taffydb-master/README.md",
+		"/D/job web/smint-v2.0/admin/tbClients"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\jogja\\css",
+			"C:\\xampp\\htdocs\\TA"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"window",
+			"controller",
+			"controler",
+			"InfoController",
+			"marker",
+			"closeClick",
+			"onClicked",
+			"showWindow",
+			"randomMarkers",
+			"dynamicMarkers",
+			"showwindow",
+			"dummyView",
+			"$db",
+			"add",
+			"delete",
+			"/*",
+			"nav",
+			"pull-rig",
+			"form-control",
+			"visibility",
+			"hidden",
+			"button",
+			"modal",
+			"-->\n",
+			"navbar",
+			"navbar-fixed-top",
+			"input",
+			"$nasli",
+			"$enas",
+			"?",
+			"form-co",
+			"active",
+			"current",
+			"></",
+			"$result",
+			"result",
+			");\n",
+			"navbar",
+			"md5lama",
+			"btn-success",
+			"navbar-inverse",
+			"btn-primary",
+			"btn-lg",
+			"btn-primary",
+			"button-lg",
+			"btn",
+			"Home",
+			"$ercapt",
+			"googleuser",
+			"theme",
+			"email",
+			">\n",
+			"Ident",
+			"ident",
+			"Ident",
+			"ident",
+			"Ident",
+			"ident",
+			"IDENT",
+			"Ident",
+			"ident",
+			"Ident",
+			"IDENT"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "view/GuaView.html",
+					"settings":
+					{
+						"buffer_size": 4514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1832,
+								1791
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/guapp.js",
+					"settings":
+					{
+						"buffer_size": 17614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16613,
+								16613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8744.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "view/GuaView_.html",
+					"settings":
+					{
+						"buffer_size": 3644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1026,
+								1026
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"",
+				"rec/LICENSE"
+			],
+			[
+				"logi",
+				"login.php"
+			],
+			[
+				"ab",
+				"about.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true
+}
