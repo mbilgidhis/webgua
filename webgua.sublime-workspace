@@ -523,7 +523,7 @@
 			"file": "view/GuaView.html",
 			"settings":
 			{
-				"buffer_size": 4514,
+				"buffer_size": 4511,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "js/guapp.js",
 			"settings":
 			{
-				"buffer_size": 17614,
+				"buffer_size": 17733,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "view/GuaView_.html",
 			"settings":
 			{
-				"buffer_size": 3644,
+				"buffer_size": 3647,
 				"line_ending": "Windows"
 			}
 		}
@@ -1019,7 +1019,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1027,15 +1027,15 @@
 					"file": "view/GuaView.html",
 					"settings":
 					{
-						"buffer_size": 4514,
+						"buffer_size": 4511,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1832,
-								1791
+								1761,
+								1761
 							]
 						],
 						"settings":
@@ -1054,15 +1054,15 @@
 					"file": "js/guapp.js",
 					"settings":
 					{
-						"buffer_size": 17614,
+						"buffer_size": 17733,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16613,
-								16613
+								16655,
+								16655
 							]
 						],
 						"settings":
@@ -1081,15 +1081,15 @@
 					"file": "view/GuaView_.html",
 					"settings":
 					{
-						"buffer_size": 3644,
+						"buffer_size": 3647,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1026,
-								1026
+								1045,
+								1045
 							]
 						],
 						"settings":

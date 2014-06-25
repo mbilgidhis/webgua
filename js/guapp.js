@@ -564,7 +564,12 @@ GuaApp.controller('GuaCtrl', function($scope, $stateParams, $http, $window, $ion
 			$scope.guaviews = data.data;
 			$scope.title = $scope.guaviews[0].name;
 			$scope.active = $scope.guaviews[0].id;
-
+			if($scope.guaviews[0].images == 0){
+				$scope.file = [];
+			}else{
+				tempUrl = $scope.guaviews[0].images;
+				$scope.file = tempUrl[0].file;
+			}
 			$timeout(function(){
 				$scope.loadingIndicator.hide();
 			}, 100);
@@ -608,7 +613,7 @@ GuaApp.controller('GuaViewCtrl', function($scope,$http, $stateParams, $ionicLoad
 			$scope.file = [];
 		}else{
 			tempUrl = $scope.guas[0].images;
-			console.log(tempUrl[0].file);
+
 			$scope.file = tempUrl[0].file;
 		}
 
