@@ -27,9 +27,6 @@ GuaApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, 
 		.state('menu.biota', {url: '/info/biota', views: {'menuContent': {templateUrl: 'view/biotaView.html', controller: 'BiotaCtrl'} }  })
 		.state('menu.biotaView', {url:'/info/biota/:id', views:{'menuContent':{templateUrl: 'view/fullBiotaView.html', controller:'FullBiotaCtrl'} } })
 
-		//.state('menu.ornamen', {url: '/info/ornamen', views: {'menuContent': {templateUrl: 'view/dummyView.html', controller: 'DummyCtrl'} }  })
-
-
 		.state('menu.perarea', {url: '/area/:id', views: {'menuContent': {templateUrl: 'view/GuaView.html', controller: 'GuaCtrl'} }  })
 
 		.state('menu.showsearch', {url: '/search/:id', views: {'menuContent': {templateUrl: 'view/GuaView_.html', controller: 'GuaViewCtrl'} }  })
@@ -461,34 +458,6 @@ GuaApp.controller('AreaCtrl', function($scope, $http, $ionicLoading, $timeout){
 	}).error(function(){
 		console.log("gagal");
 	});
-
-});
-
-GuaApp.controller('PerAreaCtrl', function($scope, $stateParams, $http, $window){
-	
-	var id = $stateParams.id;
-
-	$scope.perprovinces = [];
-
-	var lat = $window.lat, lng = $window.lng;
-	var currentLocation = new google.maps.LatLng(lat, lng);
-
-	
-	$http({
-		url:"http://gua.antonwibisono.com/api/public/caves/province/?id="+id,
-		apiToken: "434refce",
-		dataType: "json",
-		method:'POST'
-	}).success(function(data){
-		$scope.perprovinces = data.data;
-	}).error(function(){
-		console.log("gagal");
-	});
-
-	$scope.jarak = function(a,b){
-		var areaLocation = new google.maps.LatLng(a, b);
-		return (google.maps.geometry.spherical.computeDistanceBetween(currentLocation, areaLocation) / 1000).toFixed(1);
-	};
 
 });
 
