@@ -9,7 +9,7 @@
 				</div>
 				<div id="keterangan">
 					<h4>{{biotas.name}}</h4>
-					<p>{{biotas.description}}</p>
+					<p ng-bind-html="biotas.description | nl2br" ng-show="biotas.description"></p>
 				</div>
 			</div>
 		</div>

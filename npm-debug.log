@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'phonegap' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'phonegap', null ]
+5 verbose cache add name=undefined spec="phonegap" args=["phonegap",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'phonegap',
+6 verbose parsed url   path: 'phonegap',
+6 verbose parsed url   href: 'phonegap' }
+7 silly lockFile 10db903f-phonegap phonegap
+8 verbose lock phonegap C:\Users\ppkpk\AppData\Roaming\npm-cache\10db903f-phonegap.lock
+9 silly lockFile 10db903f-phonegap phonegap
+10 silly lockFile 10db903f-phonegap phonegap
+11 verbose addNamed [ 'phonegap', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 3a6257f3-phonegap phonegap@
+14 verbose lock phonegap@ C:\Users\ppkpk\AppData\Roaming\npm-cache\3a6257f3-phonegap.lock
+15 silly addNameRange { name: 'phonegap', range: '*', hasData: false }
+16 verbose url raw phonegap
+17 verbose url resolving [ 'https://registry.npmjs.org/', './phonegap' ]
+18 verbose url resolved https://registry.npmjs.org/phonegap
+19 info trying registry request attempt 1 at 10:22:19
+20 http GET https://registry.npmjs.org/phonegap
+21 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+22 info trying registry request attempt 2 at 10:22:32
+23 http GET https://registry.npmjs.org/phonegap
+24 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+25 info trying registry request attempt 3 at 10:23:34
+26 http GET https://registry.npmjs.org/phonegap
+27 silly lockFile 3a6257f3-phonegap phonegap@
+28 silly lockFile 3a6257f3-phonegap phonegap@
+29 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND
+29 error network This is most likely not a problem with npm itself
+29 error network and is related to network connectivity.
+29 error network In most cases you are behind a proxy or have bad network settings.
+29 error network
+29 error network If you are behind a proxy, please make sure that the
+29 error network 'proxy' config is set properly.  See: 'npm help config'
+30 error System Windows_NT 6.1.7601
+31 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "phonegap"
+32 error cwd d:\Djenggot\github\webgua
+33 error node -v v0.10.26
+34 error npm -v 1.4.3
+35 error code ECONNRESET
+36 verbose exit [ 1, true ]

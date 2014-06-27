@@ -10,7 +10,7 @@
 					</div>
 					<div id="keterangan">
 						<h4>{{jenisDescs.name}}</h4>
-						<p>{{jenisDescs.description}}</p>
+						<p ng-bind-html="jenisDescs.description | nl2br" ng-show="jenisDescs"></p>
 					</div>
 				</div>
 			</div>
