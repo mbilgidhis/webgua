@@ -23,10 +23,10 @@
     <icon src="res/icon/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
     <icon src="res/icon/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
 
-    <gap:splash src="ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+<!--     <gap:splash src="ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
     <gap:splash src="res/splash/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
     <gap:splash src="res/splash/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-    <gap:splash src="res/splash/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <gap:splash src="res/splash/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" /> -->
 <!--     <platform name="android">
         <icon src="res/icon/ldpi.png" density="ldpi" />
         <icon src="res/icon/mdpi.png" density="mdpi" />
