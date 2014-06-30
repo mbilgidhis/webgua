@@ -17,12 +17,22 @@
         <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
-    <platform name="android">
+
+    <icon src="res/icon/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="res/icon/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="res/icon/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="res/icon/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+
+    <gap:splash src="ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+    <gap:splash src="res/splash/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+    <gap:splash src="res/splash/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+    <gap:splash src="res/splash/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+<!--     <platform name="android">
         <icon src="res/icon/ldpi.png" density="ldpi" />
         <icon src="res/icon/mdpi.png" density="mdpi" />
         <icon src="res/icon/hdpi.png" density="hdpi" />
         <icon src="res/icon/xhdpi.png" density="xhdpi" />
-    </platform>
+    </platform> -->
 <!--     <gap:splash src="res/splash/ldpi.png" gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/splash/mdpi.png" gap:platform="android" gap:density="mdpi" />
     <gap:splash src="res/splash/hdpi.png" gap:platform="android" gap:density="hdpi" />
