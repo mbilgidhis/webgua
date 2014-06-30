@@ -18,10 +18,10 @@
     </feature>
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
     <icon src="icon.png" />
-    <gap:splash src="ldpi.png"  />
+    <!-- <gap:splash src="ldpi.png"  /> -->
     <gap:splash src="mdpi.png" />
-    <gap:splash src="hdpi.png"  />
-    <gap:splash src="xhdpi.png"  />
+<!--     <gap:splash src="hdpi.png"  />
+    <gap:splash src="xhdpi.png"  /> -->
 
 <!--     <icon src="res/icon/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
     <icon src="res/icon/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
