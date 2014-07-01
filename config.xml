@@ -18,6 +18,8 @@
     </feature>
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
     <icon src="icon.png" />
+    <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
+
 
 <!--     <icon src="res/icon/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
     <icon src="res/icon/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
