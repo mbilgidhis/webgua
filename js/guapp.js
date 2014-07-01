@@ -57,8 +57,16 @@ GuaApp.controller('HeaderCtrl', function($scope) {
 /**
  * MAIN CONTROLLER - handle inapp browser
  */
-GuaApp.controller('MainCtrl', function($scope){
+GuaApp.controller('MainCtrl', function(){
+       document.addEventListener("deviceready", onDeviceReady, false);
 
+        function onDeviceReady{
+            document.addEventListener("menubutton", onPressMenu, false);
+        }
+
+        function onPressMenu{
+            alert("test menu");
+        }
 });
 
 /**
