@@ -33,14 +33,15 @@
     
     <!-- your app's script -->
     <script type="text/javascript">
-        // document.addEventListener("deviceready", onDeviceReady, false);
-        // function onDeviceReady{
-        //     navigator.splashscreen.show();
+        document.addEventListener("deviceready", onDeviceReady, false);
 
-        //     setTimeout(function(){
-        //         navigator.splashscreen.hide();
-        //     }, 5000);
-        // }
+        function onDeviceReady{
+            document.addEventListener("menubutton", onPressMenu, false);
+        }
+
+        function onPressMenu{
+            alert("test menu");
+        }
     </script>
   </head>
   
