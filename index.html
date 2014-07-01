@@ -41,6 +41,15 @@
         //         navigator.splashscreen.hide();
         //     }, 5000);
         // }
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        function onDeviceReady{
+            document.addEventListener("menubutton", onPressMenu, false);
+        }
+
+        function onPressMenu{
+            alert("test menu");
+        }
     </script>
   </head>
   
