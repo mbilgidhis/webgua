@@ -18,24 +18,19 @@
     </feature>
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
     <icon src="icon.png" />
-    <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
-    <gap:splash src="res/splash/hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
-
-<!--     <icon src="res/icon/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
-    <icon src="res/icon/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
-    <icon src="res/icon/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-    <icon src="res/icon/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" /> -->
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.SplashScreen"/>
+        <gap:splash src="res/splash/ldpi.png" gap:platform="android" gap:density="ldpi" />
+        <gap:splash src="res/splash/mdpi.png" gap:platform="android" gap:density="mdpi" />
+        <gap:splash src="res/splash/hdpi.png" gap:platform="android" gap:density="hdpi" />
+        <gap:splash src="res/splash/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    </feature>
 
 <!--     <gap:splash src="ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
     <gap:splash src="res/splash/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
     <gap:splash src="res/splash/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
     <gap:splash src="res/splash/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" /> -->
-<!--     <platform name="android">
-        <icon src="res/icon/ldpi.png" density="ldpi" />
-        <icon src="res/icon/mdpi.png" density="mdpi" />
-        <icon src="res/icon/hdpi.png" density="hdpi" />
-        <icon src="res/icon/xhdpi.png" density="xhdpi" />
-    </platform> -->
+
 <!--     <gap:splash src="res/splash/ldpi.png" gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/splash/mdpi.png" gap:platform="android" gap:density="mdpi" />
     <gap:splash src="res/splash/hdpi.png" gap:platform="android" gap:density="hdpi" />
