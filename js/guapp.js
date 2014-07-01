@@ -57,10 +57,9 @@ GuaApp.controller('HeaderCtrl', function($scope) {
 /**
  * MAIN CONTROLLER - handle inapp browser
  */
-GuaApp.controller('MainCtrl', ['$scope', function($scope) {
-  // do something
-}]);
+GuaApp.controller('MainCtrl', function($scope){
 
+});
 
 /**
  * MAIN CONTROLLER - handle inapp browser
