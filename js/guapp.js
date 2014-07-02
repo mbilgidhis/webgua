@@ -61,19 +61,29 @@ GuaApp.controller('MainCtrl', function($scope, $ionicActionSheet){
     document.addEventListener("menubutton", onPressMenu, false);
 
     function onPressMenu(){
-        $scope.showMenu();
+        $ionicActionSheet.show({
+        	titleText: 'Menu',
+        	destrunctiveText: 'Exit',
+        	cancelText: 'Cancel',
+        	destrunctiveButtonClicked:function(){
+        		navigator.apply.exitApp();
+        	},
+        	cancel: function(){
+        		return true;
+        	}
+        });
     }
 
-	$scope.showMenu = function(){
-		var action = $ionicActionSheet.show({
-			titleText: 'Menu',
-			destrunctiveText: 'Exit',
-			cancelText: 'Cancel',
-			destructiveButtonClicked: function(){
-				navigator.app.exitApp();
-			}
-		});
-	};
+	// $scope.showMenu = function(){
+	// 	var action = $ionicActionSheet.show({
+	// 		titleText: 'Menu',
+	// 		destrunctiveText: 'Exit',
+	// 		cancelText: 'Cancel',
+	// 		destructiveButtonClicked: function(){
+	// 			navigator.app.exitApp();
+	// 		}
+	// 	});
+	// };
 });
 
 /**
