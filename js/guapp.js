@@ -58,20 +58,20 @@ GuaApp.controller('HeaderCtrl', function($scope) {
  * MAIN CONTROLLER - handle inapp browser
  */
 GuaApp.controller('MainCtrl', function($scope, $ionicActionSheet){
-    document.addEventListener("menubutton", onPressMenu, false);
+    // document.addEventListener("menubutton", onPressMenu, false);
 
-    function onPressMenu(){
-        $ionicActionSheet.show({
-        	titleText: 'Menu',
-        	buttons:[
-        		{text: 'Exit'}
-        	],
-        	cancelText: 'Cancel',
-        	buttonClicked: function(title){
-        		navigator.app.exitApp();
-        	}
-        });
-    }
+    // function onPressMenu(){
+    //     $ionicActionSheet.show({
+    //     	titleText: 'Menu',
+    //     	buttons:[
+    //     		{text: 'Exit'}
+    //     	],
+    //     	cancelText: 'Cancel',
+    //     	buttonClicked: function(title){
+    //     		navigator.app.exitApp();
+    //     	}
+    //     });
+    // }
 
 	// $scope.showMenu = function(){
 	// 	var action = $ionicActionSheet.show({
