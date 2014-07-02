@@ -63,18 +63,14 @@ GuaApp.controller('MainCtrl', function($scope, $ionicActionSheet){
     function onPressMenu(){
         $scope.showMenu();
     }
-	
+
 	$scope.showMenu = function(){
 		var action = $ionicActionSheet.show({
-			buttons: [
-				{ text: '<b>Share</b> This'},
-				{ text: 'Move'}
-			],
-			destrunctiveText: 'Delete',
-			titleText: 'Modify your album',
+			titleText: 'Menu',
+			destrunctiveText: 'Exit',
 			cancelText: 'Cancel',
-			buttonClicked: function(index){
-				return true;
+			destructiveButtonClicked: function(){
+				navigator.app.exitApp();
 			}
 		});
 	};
