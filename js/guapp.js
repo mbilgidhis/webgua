@@ -70,9 +70,6 @@ GuaApp.controller('MainCtrl', function($scope, $ionicActionSheet){
         	buttonClicked: function(title){
         		navigator.app.exitApp();
         	}
-        	cancel: function(){
-        		return true;
-        	}
         });
     }
 
