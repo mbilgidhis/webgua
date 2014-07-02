@@ -58,6 +58,12 @@ GuaApp.controller('HeaderCtrl', function($scope) {
  * MAIN CONTROLLER - handle inapp browser
  */
 GuaApp.controller('MainCtrl', function($scope, $ionicActionSheet){
+    document.addEventListener("menubutton", onPressMenu, false);
+
+    function onPressMenu(){
+        $scope.showMenu();
+    }
+	
 	$scope.showMenu = function(){
 		var action = $ionicActionSheet.show({
 			buttons: [
