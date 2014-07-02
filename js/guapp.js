@@ -57,8 +57,21 @@ GuaApp.controller('HeaderCtrl', function($scope) {
 /**
  * MAIN CONTROLLER - handle inapp browser
  */
-GuaApp.controller('MainCtrl', function(){
-
+GuaApp.controller('MainCtrl', function($scope, $ionicActionSheet){
+	$scope.showMenu = function(){
+		var action = $ionicActionSheet.show({
+			buttons: [
+				{ text: '<b>Share</b> This'},
+				{ text: 'Move'}
+			],
+			destrunctiveText: 'Delete',
+			titleText: 'Modify your album',
+			cancelText: 'Cancel',
+			buttonClicked: function(index){
+				return true;
+			}
+		});
+	};
 });
 
 /**
