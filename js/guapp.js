@@ -63,11 +63,13 @@ GuaApp.controller('MainCtrl', function($scope, $ionicActionSheet){
     function onPressMenu(){
         $ionicActionSheet.show({
         	titleText: 'Menu',
-        	destrunctiveText: 'Exit',
+        	buttons:[
+        		{text: 'Exit'}
+        	],
         	cancelText: 'Cancel',
-        	destrunctiveButtonClicked:function(){
-        		navigator.apply.exitApp();
-        	},
+        	buttonClicked: function(title){
+        		navigator.app.exitApp();
+        	}
         	cancel: function(){
         		return true;
         	}
