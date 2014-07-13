@@ -100,7 +100,7 @@ GuaApp.controller('TentangCtrl', function($scope, $http, $ionicLoading, $timeout
 	};
 
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/aboutus/",
+		url:"http://susurgua.com/gapi/public/aboutus/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'		
@@ -127,7 +127,7 @@ GuaApp.controller('JenisCtrl', function($scope, $http, $ionicLoading, $timeout){
 	};
 
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/getcavetype/",
+		url:"http://susurgua.com/gapi/public/getcavetype/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -153,7 +153,7 @@ GuaApp.controller('descJenisCtrl', function($scope, $stateParams, $http, $ionicL
 
 	var id = $stateParams.id;
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/getcavetype/",
+		url:"http://susurgua.com/gapi/public/getcavetype/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -178,7 +178,7 @@ GuaApp.controller('AlatCtrl', function($scope, $http, $ionicLoading, $timeout){
 	// if(localStorageService.isSupported){
 	// 	if(!localStorageService.get("alat")){
 	// 		$http({
-	// 			url:"http://gua.antonwibisono.com/api/public/getgearstype/",
+	// 			url:"http://susurgua.com/gapi/public/getgearstype/",
 	// 			apiToken: "434refce",
 	// 			dataType: "json",
 	// 			method:'POST'
@@ -195,7 +195,7 @@ GuaApp.controller('AlatCtrl', function($scope, $http, $ionicLoading, $timeout){
 	// 	}
 	// }else{
 	// 	$http({
-	// 		url:"http://gua.antonwibisono.com/api/public/getgearstype/",
+	// 		url:"http://susurgua.com/gapi/public/getgearstype/",
 	// 		apiToken: "434refce",
 	// 		dataType: "json",
 	// 		method:'POST'
@@ -215,7 +215,7 @@ GuaApp.controller('AlatCtrl', function($scope, $http, $ionicLoading, $timeout){
 	};
 
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/getgearstype/",
+		url:"http://susurgua.com/gapi/public/getgearstype/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -241,7 +241,7 @@ GuaApp.controller('descAlatCtrl', function($http, $scope, $stateParams, $ionicLo
 
 	var id = $stateParams.id;
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/getgearstype/",
+		url:"http://susurgua.com/gapi/public/getgearstype/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -266,7 +266,7 @@ GuaApp.controller('TingkatCtrl', function($scope, $http){
 	$scope.tingkats = [];
 
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/getdificultytype/",
+		url:"http://susurgua.com/gapi/public/getdificultytype/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -290,7 +290,7 @@ GuaApp.controller('BiotaCtrl', function($scope, $http, $ionicLoading, $timeout){
 	};
 
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/getbiotatype/",
+		url:"http://susurgua.com/gapi/public/getbiotatype/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -316,7 +316,7 @@ GuaApp.controller('FullBiotaCtrl', function($scope, $http, $stateParams, $ionicL
 	var id = $stateParams.id;
 
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/getbiotatype/",
+		url:"http://susurgua.com/gapi/public/getbiotatype/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -350,7 +350,7 @@ GuaApp.controller('GpsCtrl', function($scope, $window, $http){
 
 	//ambil data marker dari api, parsing data nya di gpsview.html
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/caves_simplify/",
+		url:"http://susurgua.com/gapi/public/caves_simplify/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -469,7 +469,7 @@ GuaApp.controller('AreaCtrl', function($scope, $http, $ionicLoading, $timeout){
   
   	
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/getprovince/",
+		url:"http://susurgua.com/gapi/public/getprovince/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -515,7 +515,7 @@ GuaApp.controller('GuaCtrl', function($scope, $stateParams, $http, $window, $ion
 	$scope.title = "Gua View";
 
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/caves/province/?id="+id,
+		url:"http://susurgua.com/gapi/public/caves/province/?id="+id,
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -524,7 +524,7 @@ GuaApp.controller('GuaCtrl', function($scope, $stateParams, $http, $window, $ion
 		var idGua = $scope.perprovinces[0].id;
 		//console.log(idGua);
 		$http({
-			url:"http://gua.antonwibisono.com/api/public/cave/?id="+idGua,
+			url:"http://susurgua.com/gapi/public/cave/?id="+idGua,
 			apiToken: "434refce",
 			dataType: "json",
 			method:'POST'			
@@ -560,7 +560,7 @@ GuaApp.controller('GuaCtrl', function($scope, $stateParams, $http, $window, $ion
 		});
 		$scope.select = "";
 		$http({	
-			url:"http://gua.antonwibisono.com/api/public/cave/?id="+idgua,
+			url:"http://susurgua.com/gapi/public/cave/?id="+idgua,
 			apiToken: "434refce",
 			dataType: "json",
 			method:'POST'
@@ -606,7 +606,7 @@ GuaApp.controller('GuaViewCtrl', function($scope,$http, $stateParams, $ionicLoad
 	var tempUrl = [];
 
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/cave/?id="+id,
+		url:"http://susurgua.com/gapi/public/cave/?id="+id,
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
@@ -642,7 +642,7 @@ GuaApp.controller('SearchCtrl', function($scope, $http, $ionicLoading, $timeout)
 	$scope.searches = [];
 
 	$http({
-		url:"http://gua.antonwibisono.com/api/public/caves/",
+		url:"http://susurgua.com/gapi/public/caves/",
 		apiToken: "434refce",
 		dataType: "json",
 		method:'POST'
