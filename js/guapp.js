@@ -533,8 +533,15 @@ GuaApp.controller('GuaCtrl', function($scope, $stateParams, $http, $window, $ion
 			$scope.title = $scope.guaviews[0].name;
 			$scope.active = $scope.guaviews[0].id;
 
-			tempUrl = $scope.guaviews[0].images;
-			$scope.file = tempUrl[0].file;
+			if($scope.guaviews[0].images == 0){
+				$scope.file = [];
+			}else{
+				tempUrl = $scope.guaviews[0].images;
+				$scope.file = tempUrl[0].file;
+			}
+
+			// tempUrl = $scope.guaviews[0].images;
+			// $scope.file = tempUrl[0].file;
 
 			$timeout(function(){
 				$scope.loadingIndicator.hide();
@@ -545,9 +552,18 @@ GuaApp.controller('GuaCtrl', function($scope, $stateParams, $http, $window, $ion
 		console.log("gagal");
 	});
 
+	$scope.tanda = 0
+
 	$scope.jarak = function(a,b){
 		var areaLocation = new google.maps.LatLng(a, b);
-		return (google.maps.geometry.spherical.computeDistanceBetween(currentLocation, areaLocation) / 1000).toFixed(1);
+		var hasil = (google.maps.geometry.spherical.computeDistanceBetween(currentLocation, areaLocation) / 1000).toFixed(1);
+		if(hasil == "NaN"){
+			return "";
+			$scope.tanda = 0;
+		} else{
+			return hasil+" km";
+			$scope.tanda = 1;
+		}
 	};
 
 	$scope.loadGua = function(idgua){

@@ -6,7 +6,7 @@
 	        	<!-- List Gua -->
 	        	<div class="col col-33">
 					<div class="list" id="listCavesArea">
-						<p class="item item-icon-left" ng-repeat="perprovince in perprovinces" ng-click="loadGua(perprovince.id)" ng-class="{active : isActive(perprovince.id)}">{{perprovince.name}} <span class="badge" ng-repeat="coor in perprovince.coordinates"><u>+</u>{{jarak(coor.latitude, coor.longitude)}}km</span></p>
+						<p class="item item-icon-left" ng-repeat="perprovince in perprovinces" ng-click="loadGua(perprovince.id)" ng-class="{active : isActive(perprovince.id)}">{{perprovince.name}} <span class="badge" ng-repeat="coor in perprovince.coordinates" ng-show="tanda = 1">{{jarak(coor.latitude, coor.longitude)}}</span></p>
 					</div>
 	        	</div>
 	        	
