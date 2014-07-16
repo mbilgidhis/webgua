@@ -2,7 +2,7 @@
 
     <ion-view title="title" left-buttons="leftButtons">
         <ion-content has-header="true" scroll="true">
-	        <div class="row responsive-md" ng-init="showLoading()">
+	        <div class="row" ng-init="showLoading()">
 	        	<!-- List Gua -->
 	        	<div class="col col-33">
 					<div class="list" id="listCavesArea">
@@ -13,7 +13,7 @@
 	        	<div class="col col-67" id="viewGua">
 	        		<!-- <p ng-hide="select == ''">{{select}}</p> -->
 	        		<div ng-hide="guaviews == []" ng-repeat="gua in guaviews">
-						<div class="row responsive-md">
+						<div class="row">
 							<div class="col col-100">
 								<div id="pic-slider">
 									<!-- Default Picture / Static Map-->
@@ -37,7 +37,7 @@
 							</div>
 						</div>
 						<div id="guaInfoDetails">
-							<div class="row responsive-md">
+							<div class="row">
 								<div class="col col-50">
 									<!-- Difficulties Level -->
 									<div id="guaType">
@@ -60,7 +60,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="row responsive-md">
+							<div class="row">
 								<div class="col col-50">
 									<!-- Contact -->
 									<div id="guaContact" ng-show="gua.contacts">
@@ -85,7 +85,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="row responsive-md">
+							<div class="row">
 								<div class="col col-100">
 									<!-- Cave Description -->
 									<hr/>

@@ -59,7 +59,7 @@ div[ng-repeat="gua in guas"] ion-view{
 	color:#fff;
 	padding:0;
 }
-.row.responsive-md{
+.row{
 	padding:0px;
 }
 
