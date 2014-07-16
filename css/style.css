@@ -79,9 +79,9 @@ div[ng-repeat="gua in guas"] .col.col-100,div[ng-repeat="gua in guaviews"] .col.
 }
 #listCavesArea .badge{
 	border-left:1px solid #4ACFDD;
-	font-size:12px;
+	font-size:10px;
 	font-weight:normal;
-	padding:2px 0px 2px 10px;
+	padding:2px 0px 2px 5px;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
 	border-radius: 0px; /* future proofing */
